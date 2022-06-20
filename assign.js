@@ -2,7 +2,6 @@
 
 function toKelvin() {
   inp_v = document.f1.c.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter a temp in celcius to convert 😎");
   } else {
@@ -12,18 +11,15 @@ function toKelvin() {
 }
 function toFahr() {
   inp_v = document.f1.c.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter a temp in celcius to convert 😎");
   } else {
-    // C(9/5) + 32
     temp_f = parseFloat(inp_v) * (9 / 5) + 32;
     document.f1.out.value = temp_f;
   }
 }
 function toCenti() {
   inp_v = document.f2.c1.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter height in FEET to convert 😎");
   } else {
@@ -33,7 +29,6 @@ function toCenti() {
 }
 function toInch() {
   inp_v = document.f2.c1.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter height in FEET to convert 😎");
   } else {
@@ -43,7 +38,6 @@ function toInch() {
 }
 function toMiles() {
   inp_v = document.f3.c2.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter distance in KM to convert 😎");
   } else {
@@ -53,7 +47,6 @@ function toMiles() {
 }
 function toNautm() {
   inp_v = document.f3.c2.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter distance in KM to convert 😎");
   } else {
@@ -63,7 +56,6 @@ function toNautm() {
 }
 function toPound() {
   inp_v = document.f4.c3.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter weight in Pound to convert 😎");
   } else {
@@ -73,7 +65,6 @@ function toPound() {
 }
 function toGram() {
   inp_v = document.f4.c3.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter weight in Pound to convert 😎");
   } else {
@@ -83,7 +74,6 @@ function toGram() {
 }
 function toMinute() {
   inp_v = document.f5.c4.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter weight in Pound to convert 😎");
   } else {
@@ -93,7 +83,6 @@ function toMinute() {
 }
 function toSec() {
   inp_v = document.f5.c4.value;
-  // alert(inp_v);
   if (inp_v == "") {
     alert("Please enter weight in Pound to convert 😎");
   } else {
